@@ -1,0 +1,24 @@
+package questao_6;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		
+		int x = 30;
+		
+		int y = 90;
+		
+		System.out.printf("Valor inicial de x: %d %nValor inicial de y: %d%n", x, y);
+		
+		int aux;
+		
+		aux = y;
+		y = x;
+		x = aux;
+		
+		System.out.printf("Valor final de x: %d %nValor final de y: %d%n", x, y);
+				
+
+	}
+
+}
